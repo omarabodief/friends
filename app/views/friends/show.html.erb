@@ -1,29 +1,15 @@
-<p id="notice"><%= notice %></p>
+<div class="card" style="width: 18rem; align:center;">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FImageFurnitureEgypt%2F&psig=AOvVaw3dpaLLUIu-VWCtxXerp0Zy&ust=1612961803765000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiRtYzt3O4CFQAAAAAdAAAAABAD" class="card-img-top" alt="Random" />
+  <div class="card-body">
+    <h5 class="card-title">Friend <%=@friend.id%></h5>
+    <p><strong>First name :</strong><%= @friend.first_name %></p>
+    <p><strong>Last name: </strong><%= @friend.last_name %></p>
+    <p><strong>Email: </strong><%= @friend.email %></p>
+    <p><strong>Phone: </strong><%= @friend.phone %></p>
+    <p><strong>Twitter: </strong><%= @friend.twitter %></p>
 
-<p>
-  <strong>First name:</strong>
-  <%= @friend.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
-  <%= @friend.last_name %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @friend.email %>
-</p>
-
-<p>
-  <strong>Phone:</strong>
-  <%= @friend.phone %>
-</p>
-
-<p>
-  <strong>Twitter:</strong>
-  <%= @friend.twitter %>
-</p>
-
-<%= link_to 'Edit', edit_friend_path(@friend) %> |
-<%= link_to 'Back', friends_path %>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <%= link_to 'Edit', edit_friend_path(@friend), class:"btn btn-success"%>
+    <%= link_to 'Back', friends_path, class:"btn btn-success"%>
+  </div>
+</div>
