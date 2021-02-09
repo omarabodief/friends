@@ -5,9 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 2.7.2
+*rails version : 6.1.1
 
-* System dependencies
+* System dependencies  : 1- install ruby 2- install node 3- 
 
 * Configuration
 
