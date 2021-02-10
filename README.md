@@ -1,25 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
+this is a sample documentation
 application up and running.
 
-Things you may want to cover:
-
-* Ruby version : 2.7.2
+*Ruby version : 2.7.2
 *rails version : 6.1.1
 
-* System dependencies  : 1- install ruby 2- install node 3- 
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
