@@ -7,18 +7,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <%= link_to "Home", root_path, class:"navbar-brand" %>
-        </li>
-        <li class="nav-item">
           <%= link_to "About", home_about_path, class:"navbar-brand" %>
         </li>
 
         <!-- this is a tab for sign up-->
 
         <% if user_signed_in? %>
-              <li class="nav-item">
-                <%= link_to "Friends", friends_path, class:"navbar-brand" %>
-              </li>
               <li class="nav-item">
                 <%= link_to "Add Friend", new_friend_path, class:"navbar-brand" %>
               </li>
